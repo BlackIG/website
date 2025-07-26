@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Apple Purchase Data Pipeline",
+    "url": "https://github.com/BlackIG/data_engineering/tree/main/apple_analysis",
+    "img": "assets/photos/project_photo/apple_pipeline_diagram.png",
+    "text": "This project showcases a modular ETL pipeline built with PySpark on Databricks, designed to analyze customer purchase behavior."
+  },
+  {
+    "title": "Weather Data Analysis",
+    "url": " https://github.com/BlackIG/packages/tree/main/DataPipeline",
+    "img": "assets/photos/project_photo/weather_pipeline_diagram.png",
+    "text": "This project includes three main modules: data ingestion, field data processing, and weather data processing for statistical analyses, along with Pytests for validation." 
+  }
+]

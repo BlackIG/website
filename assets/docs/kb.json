@@ -1,0 +1,81 @@
+{
+  "company": "brokeTechBro",
+  "tagline": "data systems that speak",
+  "knowledge_base": [
+    {
+      "category": "Services",
+      "entries": [
+        {
+          "title": "Data Analytics",
+          "description": "Transformation of raw data into strategic insights through visual dashboards, automated reports, and analytical storytelling tailored to business objectives."
+        },
+        {
+          "title": "ETL & Data Pipelines",
+          "description": "Development of resilient and scalable pipelines to extract, transform, and load data across cloud and on-prem systems, ensuring smooth data flow and integrity."
+        },
+        {
+          "title": "Data Modeling",
+          "description": "Design of conceptual, logical, and physical data models that reflect business logic and optimize for storage, retrieval, and analytical performance."
+        },
+        {
+          "title": "Data Governance",
+          "description": "Implementation of frameworks that define data ownership, access controls, data lineage, and compliance protocols for secure and trustworthy data operations."
+        },
+        {
+          "title": "Data Warehousing",
+          "description": "Architecture and management of centralized cloud data warehouses such as BigQuery, Snowflake, and Redshift, enabling fast and cost-efficient querying at scale."
+        },
+        {
+          "title": "Business Intelligence",
+          "description": "Creation of self-service and executive dashboards, reports, and decision tools that surface key business metrics and trends in real time."
+        },
+        {
+          "title": "API Integration",
+          "description": "Connection of third-party services to internal systems via API integrations, automating external data acquisition and syncing for operational efficiency."
+        },
+        {
+          "title": "Real-Time Data",
+          "description": "Deployment of streaming technologies for low-latency data processing, powering real-time use cases such as anomaly detection, alerts, and live dashboards."
+        }
+      ]
+    },
+    {
+      "category": "FAQs",
+      "entries": [
+        {
+          "title": "Do you build dashboards?",
+          "description": "Dashboard development is offered using tools such as Looker, Tableau, Power BI, and Streamlit, tailored to specific business requirements."
+        },
+        {
+          "title": "Can you fix my existing data pipeline?",
+          "description": "Existing pipelines are audited for performance bottlenecks, code inefficiencies, and architectural gaps, followed by targeted refactoring and optimization."
+        },
+        {
+          "title": "Can I consult with you before I hire a team?",
+          "description": "Advisory sessions are available to assist in defining project scope, evaluating technical requirements, and identifying suitable team roles and tooling."
+        },
+        {
+          "title": "What's your typical engagement?",
+          "description": "Initial engagements often begin with 2–4 week scoped projects focused on high-impact outcomes, with the option to extend based on mutual fit and results."
+        }
+      ]
+    },
+    {
+      "category": "Method",
+      "entries": [
+        {
+          "title": "Discovery & Scoping",
+          "description": "An initial discovery session is conducted to clarify the business problem, define success criteria, and outline a realistic scope of work."
+        },
+        {
+          "title": "Sprint & Deliver",
+          "description": "Execution follows an agile sprint methodology with iterative builds, regular feedback loops, and tangible deliverables throughout the engagement."
+        },
+        {
+          "title": "Handoff & Support",
+          "description": "Comprehensive documentation, stakeholder training, and optional ongoing support or retainers are provided to ensure continuity and knowledge transfer."
+        }
+      ]
+    }
+  ]
+}
