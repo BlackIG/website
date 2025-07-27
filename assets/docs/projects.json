@@ -10,5 +10,11 @@
     "url": " https://github.com/BlackIG/packages/tree/main/DataPipeline",
     "img": "assets/photos/project_photo/weather_pipeline_diagram.png",
     "text": "This project includes three main modules: data ingestion, field data processing, and weather data processing for statistical analyses, along with Pytests for validation." 
+  },
+    {
+    "title": "AI Support Website",
+    "url": " https://github.com/BlackIG/website/tree/main",
+    "img": "assets/photos/concept_diagram/ai_website.png",
+    "text": "This project is a prototype for a modern customer support experience, blending a personal portfolio with an intelligent assistant powered by OpenAI." 
   }
 ]
