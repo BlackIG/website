@@ -45,14 +45,28 @@ MONGODB_HOST = os.getenv("MONGODB_HOST")
 DB_NAME = os.getenv("DB_NAME")
 COLLECTION = os.getenv("COLLECTION")
 
-# === OpenAI Setup ===
+
+
+# === OpenAI Setup with Error Handling ===
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
+if not OPENAI_API_KEY:
+    st.error("❌ OPENAI_API_KEY not found. Please set it in your .env file.")
+    st.stop()
+
 model = "gpt-4o"
 ASSISTANT_ID = os.getenv("ASSISTANT_ID")
+
+if not ASSISTANT_ID:
+    st.error("❌ ASSISTANT_ID not found. Please set it in your .env file.")
+    st.stop()
 
 # Create open client, save to cache to avoid recreating the client everytime
 @st.cache_resource
 def get_openai_client():
-    return OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    """
+    Initializes and returns an OpenAI client using the API key from environment variables."""
+    return OpenAI(api_key=OPENAI_API_KEY)
 
 client = get_openai_client()
 
