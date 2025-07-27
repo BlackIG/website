@@ -30,7 +30,17 @@ BrokeTechBro is a multi-page Streamlit app featuring:
 - **Env Handling**: [python-dotenv](https://github.com/theskumar/python-dotenv)
 
 ---
+## 💡 Features
 
+- 💬 Conversational interface powered by OpenAI Assistant API (GPT-4o)
+- 🗃️ MongoDB logging for session tracking, analytics, and feedback
+- 🖼️ UI pages: Home, About, Projects, Contact, and a custom Chat interface
+- ⭐ Session feedback and booking system built into the chat
+- 📁 Organized asset folders for logos, icons, and user images
+- 🐳 Docker-compatible for clean container deployment
+- 🌐 Deployed on [Streamlit Cloud](https://streamlit.io/cloud)
+
+---
 ## 📁 Project Structure
 
 ```
@@ -141,6 +151,11 @@ Pillow
 - 🧑‍🏫 Educational demo on how to build GPT assistants into Streamlit
 
 ---
+
+## Deployed via Streamlit  
+🔗 [https://thebroketechbro.streamlit.app](https://thebroketechbro.streamlit.app)
+
+--
 
 ## 🙌 Author
 
