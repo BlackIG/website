@@ -82,6 +82,12 @@ def footer():
             '<a href="https://medium.com/@brokeTechBro" target="_blank">📝 Blog</a>',
             unsafe_allow_html=True
         )
+    st.markdown(
+    "<p style='text-align: center; color: #DE7E5D;'>Break fast, build forward, think people!</p>",
+    unsafe_allow_html=True
+    )
+
+        
 
 
 def create_chat_icon():
