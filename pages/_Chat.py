@@ -51,14 +51,14 @@ COLLECTION = os.getenv("COLLECTION")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 if not OPENAI_API_KEY:
-    st.error("❌ OPENAI_API_KEY not found. Please set it in your .env file.")
+    st.error("❌ OPENAI_API_KEY not set in .env file. Send an email to chilaka.ig@gmail.com to contact the developer.")
     st.stop()
 
 model = "gpt-4o"
 ASSISTANT_ID = os.getenv("ASSISTANT_ID")
 
 if not ASSISTANT_ID:
-    st.error("❌ ASSISTANT_ID not found. Please set it in your .env file.")
+    st.error("❌ ASSISTANT_ID not set in .env file. Send an email to chilaka.ig@gmail.com to contact the developer.")
     st.stop()
 
 # Create open client, save to cache to avoid recreating the client everytime
@@ -74,7 +74,8 @@ client = get_openai_client()
 @st.cache_resource
 def get_mongo_collection():
         if not any([MONGODB_USERNAME, MONGODB_PASSWORD, MONGODB_HOST, DB_NAME, COLLECTION]):
-            st.error("❌ MongoDB connection parameters are not fully set in environment variables.")
+            st.error("❌ MongoDB connection parameters are not fully set in environment variables. " \
+            "Send an email to chilaka.ig@gmail.com to contact the developer.")
             logging.error("MongoDB connection parameters are not fully set in environment variables.")
                         
         else:       
