@@ -24,7 +24,7 @@ def render_about():
     st.title("👤 About")
     st.markdown("""
     <div style='font-size:14px; line-height:1.6'>
-    Hi, I’m Ikechukwu Chilaka, a data engineer and technology strategist with more than seven years of professional experience in customer experience, data analytics, and data engineering.<br><br>
+    Hi, I’m Ikechukwu Chilaka, a data engineer and technology strategist with more than seven years of professional experience in customer experience, data analytics, and automation engineering.<br><br>
 
     My career has been centered around solving real-world business problems through scalable data systems, automation, and analytics that inform impactful decisions. Over the years, I have worked with prominent financial institutions such as United Bank for Africa (UBA) and Carbon Microfinance Bank, where I led and contributed to key projects that improved operational efficiency, enhanced customer outcomes, and drove data-informed strategies across teams.<br><br>
 
