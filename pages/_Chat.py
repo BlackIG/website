@@ -74,7 +74,7 @@ client = get_openai_client()
 @st.cache_resource
 def get_mongo_collection():
         if not any([MONGODB_USERNAME, MONGODB_PASSWORD, MONGODB_HOST, DB_NAME, COLLECTION]):
-            st.error("❌ MongoDB connection parameters are not fully set in environment variables. " \
+            st.error("❌ MongoDB connection parameters have not been fully set in environment variables. " \
             "Send an email to chilaka.ig@gmail.com to contact the developer.")
             logging.error("MongoDB connection parameters are not fully set in environment variables.")
                         
