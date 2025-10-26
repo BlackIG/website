@@ -1,15 +1,15 @@
 [
   {
-    "title": "Apple Purchase Data Pipeline",
-    "url": "https://github.com/BlackIG/data_engineering/tree/main/apple_analysis",
-    "img": "assets/photos/project_photo/apple_pipeline_diagram.png",
-    "text": "This project showcases a modular ETL pipeline built with PySpark on Databricks, designed to analyze customer purchase behavior."
-  },
-  {
     "title": "Zoho SalesIQ Insights Pipeline",
     "url": "https://github.com/BlackIG/data_engineering/tree/main/chatbot-insights-pipeline",
     "img": "assets/photos/project_photo/salesiq_etl_architecture.png",
     "text": "An end-to-end system that ingests chat engagement data from the AI-powered Zobot, transforms and stores it in the Cloud for analytics, and powers live dashboards and machine learning insights." 
+  },
+  {
+    "title": "Apple Purchase Data Pipeline",
+    "url": "https://github.com/BlackIG/data_engineering/tree/main/apple_analysis",
+    "img": "assets/photos/project_photo/apple_pipeline_diagram.png",
+    "text": "This project showcases a modular ETL pipeline built with PySpark on Databricks, designed to analyze customer purchase behavior."
   },
   {
     "title": "AI Support Website",
