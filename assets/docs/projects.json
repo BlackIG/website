@@ -22,5 +22,5 @@
     "url": "https://github.com/BlackIG/packages/tree/main/DataPipeline",
     "img": "assets/photos/project_photo/weather_pipeline_diagram.png",
     "text": "This project includes three main modules: data ingestion, field data processing, and weather data processing for statistical analyses, along with Pytests for validation." 
-  },
+  }
 ]
