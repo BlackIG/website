@@ -8,7 +8,7 @@
   {
     "title": "Zoho SalesIQ Insights Pipeline",
     "url": "https://github.com/BlackIG/data_engineering/tree/main/chatbot-insights-pipeline",
-    "img": "assets/photos/project_photo/weather_pipeline_diagram.png",
+    "img": "assets/photos/project_photo/salesiq_etl_architecture.png",
     "text": "An end-to-end system that ingests chat engagement data from the AI-powered Zobot, transforms and stores it in the Cloud for analytics, and powers live dashboards and machine learning insights." 
   },
   {
