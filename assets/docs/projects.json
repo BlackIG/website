@@ -6,15 +6,21 @@
     "text": "This project showcases a modular ETL pipeline built with PySpark on Databricks, designed to analyze customer purchase behavior."
   },
   {
+    "title": "Zoho SalesIQ Insights Pipeline",
+    "url": "https://github.com/BlackIG/data_engineering/tree/main/chatbot-insights-pipeline",
+    "img": "assets/photos/project_photo/weather_pipeline_diagram.png",
+    "text": "An end-to-end system that ingests chat engagement data from the AI-powered Zobot, transforms and stores it in the Cloud for analytics, and powers live dashboards and machine learning insights." 
+  },
+  {
+    "title": "AI Support Website",
+    "url": "https://github.com/BlackIG/website/tree/main",
+    "img": "assets/photos/concept_diagram/ai_website.png",
+    "text": "This project is a prototype for a modern customer support experience, blending a personal portfolio with an intelligent assistant powered by OpenAI." 
+  },
+    {
     "title": "Weather Data Analysis",
-    "url": " https://github.com/BlackIG/packages/tree/main/DataPipeline",
+    "url": "https://github.com/BlackIG/packages/tree/main/DataPipeline",
     "img": "assets/photos/project_photo/weather_pipeline_diagram.png",
     "text": "This project includes three main modules: data ingestion, field data processing, and weather data processing for statistical analyses, along with Pytests for validation." 
   },
-    {
-    "title": "AI Support Website",
-    "url": " https://github.com/BlackIG/website/tree/main",
-    "img": "assets/photos/concept_diagram/ai_website.png",
-    "text": "This project is a prototype for a modern customer support experience, blending a personal portfolio with an intelligent assistant powered by OpenAI." 
-  }
 ]
